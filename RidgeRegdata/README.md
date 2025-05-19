@@ -3,9 +3,10 @@ Ridge regression is a type of linear regression with L2 regularization. It is us
 Similarly, It helps stabilize the model and improves generalization to new data and handle situations where predictor variables are strongly correlated. Like in the below figure. 
 # Why to use Ridge Regression
  Some of the important reasons to use Ridge Regresssion are:  
-   a. To reduce multicollinearity 
-    b. To handle the overfitting
-     c. To balance bias and variance
+   a. To reduce multicollinearity  
+   b. To handle the overfitting  
+   c. To balance bias and variance  
+
 # My Experience
 I took the mtcars datasets then I applied both linear regression and ridge regression .
 Similarly , I calculated R2 score for both model and results were totally surprising. The R2 of ridge regression was 0.75 and of linear regression was 0.54. So ridge regression helps to stabilize the model.
