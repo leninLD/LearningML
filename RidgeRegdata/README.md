@@ -10,3 +10,9 @@ Similarly, It helps stabilize the model and improves generalization to new data 
 # My Experience
 I took the mtcars datasets then I applied both linear regression and ridge regression .
 Similarly , I calculated R2 score for both model and results were totally surprising. The R2 of ridge regression was 0.75 and of linear regression was 0.54. So ridge regression helps to stabilize the model.
+
+#4 Key points 
+💡 After increasing the λ , our coefficients value will shrink and tends to zero but it will never becomes zero.  
+💡The higher value coefficients are more affected than the lower value coefficients.  
+💡 Impact on the Loss function: As the regularization increases, the optimal β is pulled closer to the origin and loss function will move upward when observing in 3D plot  
+💡Bias Variance Tradeoff: Ridge regression balances bias and variance to minimize total error. The key is to tune λ properly (e.g., via cross-validation).Also increasing or decreasing the λ , effect is shown in table below.   
